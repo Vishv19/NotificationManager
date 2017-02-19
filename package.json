@@ -1,0 +1,33 @@
+{
+  "name": "usernotification",
+  "version": "1.0.0",
+  "description": "\"Application to provide notification to home owners\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishv19/NotificationManager.git"
+  },
+  "keywords": [
+    "Notification",
+    "Home",
+    "Automation",
+    "Twilio"
+  ],
+  "author": "Vishv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishv19/NotificationManager/issues"
+  },
+  "homepage": "https://github.com/Vishv19/NotificationManager#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3",
+    "twilio": "^2.11.1",
+    "validator": "^6.2.1"
+  }
+}

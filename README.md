@@ -13,9 +13,11 @@ The software stack for our application includes following technologies:
 ## **Instruction**
 1. Install Node.js.
 2. Install MongoDB.
-3. Run npm install to download the required packages from npm repository.
-4. Start MongoDB server
-5. Run `node server.js` to start the nodejs application.
+3. Create your twilio account at https://www.twilio.com/login
+4. Run npm install to download the required packages from npm repository.
+5. Start MongoDB server.
+6. Set up environment variables TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN and TWILIO_NUMBER.
+7. Run `node server.js` to start the nodejs application.
 
 ## **Ongoing**
 Add **RabbitMQ** to the project architecture.This queue will fetch all the incoming request and it will be processed by other nodejs server to execute functionality.
